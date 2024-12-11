@@ -5,7 +5,14 @@ import dbConnect from './db';
 
 const getItems = async () => {
     await dbConnect();
-    return Item.find()
+    let temp =  Item.find({}).sort();
+    return temp;
 }
 
-export { getItems }
+const tempFxn = async () => {
+    let items =  await getItems();
+    const data = { items: JSON.parse(JSON.stringify(items)) };
+    return data;
+}
+
+export { tempFxn }
