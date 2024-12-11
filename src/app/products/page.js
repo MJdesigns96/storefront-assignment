@@ -19,7 +19,9 @@ return (
                 <p>Listed below are products that are currently being housed in our stores.</p>
             </div>
             <div className="row">
-                <Cards />
+                <div className="col-6">
+                    <Cards />
+                </div>
             </div>
         </div>
     </div>
