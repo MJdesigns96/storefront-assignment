@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Original - Wide Mouth Bottle 16oz",
+      "description": "Original, Trailblazing, Real McCoy Water Bottle. In 16oz/500mL.",
+      "price": 19.00,
+      "stock": 256
+    },
+    {
+      "id": 2,
+      "name": "Original - Wide Mouth Bottle 32oz",
+      "description": "Original, Trailblazing, Real McCoy Water Bottle. In 32oz/946mL.",
+      "price": 21.50,
+      "stock": 111
+    },
+    {
+      "id": 3,
+      "name": "Original - Wide Mouth Bottle 8oz",
+      "description": "Original, Trailblazing, Real McCoy Water Bottle. In 8oz/237mL.",
+      "price": 12.50,
+      "stock": 10
+    },
+    {
+      "id": 4,
+      "name": "Silo Bottle 48oz",
+      "description": "Pack light and tall with our 48oz/1.42L HDPE silo bottle.",
+      "price": 17.50,
+      "stock": 53
+    },
+    {
+      "id": 5,
+      "name": "Silo Bottle 48oz - Sustain",
+      "description": "Pack light and tall with our 48oz/1.42L bottle now made sustainably.",
+      "price": 26.50,
+      "stock": 9
+    },
+    {
+      "id": 6,
+      "name": "Flexible Cantene 32oz",
+      "description": "A camping classing, multilayered material for stiffness and strength. 32oz/946mL",
+      "price": 28.00,
+      "stock": 232
+    },
+    {
+      "id": 7,
+      "name": "Flexible Cantene 48oz",
+      "description": "A camping classing, multilayered material for stiffness and strength. 48oz/1.42L",
+      "price": 30.00,
+      "stock": 137
+    },
+    {
+      "id": 8,
+      "name": "Flexible Cantene 96oz",
+      "description": "A camping classing, multilayered material for stiffness and strength. 96oz/2.8L",
+      "price": 37.50,
+      "stock": 7
+    }
+]

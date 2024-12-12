@@ -1,4 +1,5 @@
 import Cards from "./cards";
+import ItemsListItems from "../components/ProductCards";
 
 export const metadata = {
     title: "Products List | Storefront",
@@ -19,8 +20,8 @@ return (
                 <p>Listed below are products that are currently being housed in our stores.</p>
             </div>
             <div className="row">
-                <div className="col-6">
-                    <Cards />
+                <div className="col">
+                    <ItemsListItems />
                 </div>
             </div>
         </div>

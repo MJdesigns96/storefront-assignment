@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 
   // connect to the DB
   const dbUrl = `mongodb+srv://${process.env.DBUSER}:${process.env.DBPWD}@${process.env.DBHOST}`;
-
   if (!dbUrl) {
     throw new Error(
         'Please define the MONGODB_URI environment variable inside .env',
