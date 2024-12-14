@@ -1,4 +1,3 @@
-// 'use client'
 import { tempFxn } from '../getItems';
 import styles from './styles.modules.css';
 import smWide from '../../../public/bottles/8oz-wide.png';
@@ -10,9 +9,11 @@ import smCanteen from '../../../public/bottles/32oz-canteen.png';
 import mdCanteen from '../../../public/bottles/48oz-canteen.png';
 import lgCanteen from '../../../public/bottles/96oz-canteen.png';
 
-export default async function ItemsListItems() {
+export default async function ItemsListItems({ currencyAmount, currencyName, userCurrency }) {
+    // console.log(currencyAmount);
+    // console.log(currencyName);
+    // console.log(userCurrency);
     const itemsList = await tempFxn();
-    // console.log(itemsList.items);
     let itemsArr = [];
     itemsList.items.forEach(entry => {
         itemsArr.push(entry);
@@ -34,7 +35,10 @@ export default async function ItemsListItems() {
         mdCanteen.src,
         lgCanteen.src
     ]
-
+    const currencyChoice = (price, currencyAmount, currencyName, userCurrency) => {
+        return <h3>${ (price * currencyAmount[userCurrency -1]).toFixed(2) } { currencyName[userCurrency -1] }</h3>
+    }
+    
     const itemsElement = itemsArr.map((entry) => 
         <div className='col-3 mb-2' key={entry.id}>
             <div className='card h-100'>
@@ -47,7 +51,7 @@ export default async function ItemsListItems() {
                 </div>
                 <div className='card-footer mt-2'>
                     <div className='row align-items-center mt-auto'>
-                        <div className='col text-center '><h3>${ entry.price.toFixed(2) } CAD</h3></div>
+                        <div className='col text-center '>{ currencyChoice(entry.price, currencyAmount, currencyName, userCurrency) }</div>
                         { stockCheker(entry.stock) }
                     </div>
                 </div>

@@ -4,10 +4,11 @@ import AboutUs from "./components/Aboutus";
 import waterBottle from '../../public/waterBottle.jpg'
 import styles from './styles.modules.css';
 
+export default function Home() {
+  let userCurrency = 1;
+  const currencyAmount = [1, 1.35];
+  const currencyName = ["CAD", "USD"];
 
-
-export default async function Home() {
-  // organize the db conneciton for the items into directories so that it is easier and cleaner to connect and such then save the items to a state var
   return (
     <>  
       <div className="row gx-0 px-0">
@@ -19,11 +20,11 @@ export default async function Home() {
       </div>
       <AboutUs />
       <div className="row mb-3 px-5 gx-5 py-5 blueBackground">
-          <h2>Bottles</h2>
-          <p>Come see why our bottles are making a difference.</p>
-        </div>
+        <h2>Bottles</h2>
+        <p>Come see why our bottles are making a difference.</p>
+      </div>
       <div className="row px-5 gx-5">
-         <ItemsListItems />
+         <ItemsListItems currencyAmount = {currencyAmount} currencyName = {currencyName} userCurrency = {userCurrency} />
       </div>
       <div className="storeCards row mt-5 py-5 px-5">
         <h2>Locations</h2>

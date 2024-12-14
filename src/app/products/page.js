@@ -5,8 +5,10 @@ export const metadata = {
     description: "A list of products currently being sold in stores"
 };
 
-export default function Products(props) {
-
+export default function Products() {
+    let userCurrency = 1;
+    const currencyAmount = [1, 1.35];
+    const currencyName = ["CAD", "USD"];
 return (
     <div className="row">
         <div className="col">
@@ -18,7 +20,7 @@ return (
             </div>
             <div className="row mb-5">
                 <div className="col">
-                    <ItemsListItems />
+                    <ItemsListItems currencyAmount ={currencyAmount} currencyName = {currencyName} userCurrency = {userCurrency} />
                 </div>
             </div>
         </div>
