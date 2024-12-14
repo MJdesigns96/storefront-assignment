@@ -31,3 +31,16 @@
   #storeCard {
     background-color: #6078b9;
   }
+
+  .spacer {
+    background-color: #0037cf;
+  }
+
+  #footer {
+    color: #f3f3f3;
+    background-color: #0037cf;
+  }
+
+  #footer .col .navbar .navbar-nav .nav-item a {
+    color: #f3f3f3;
+  }
