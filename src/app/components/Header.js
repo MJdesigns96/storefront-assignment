@@ -6,7 +6,7 @@ export default function Header() {
         <header>
             <nav className="navbar navbar-expand-lg fixed-top shadow mb-5">
                 <div className="container-fluid justify-content-around">
-                    <Link className="navbar-brand" href="/">
+                    <Link className="navbar-brand blueText" href="/">
                         <h1>H2Water</h1>
                     </Link>
                     <small>
@@ -27,13 +27,13 @@ export default function Header() {
                                 </h2>
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" href="/about">
                                 <h2>
                                     About Us
                                 </h2>
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

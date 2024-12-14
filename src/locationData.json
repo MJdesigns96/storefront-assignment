@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "branch": "Vancouver",
+      "address": "305 Water St.",
+      "hourOpen": 8,
+      "hourClose": 20,
+      "phone": "604-231-9876"
+    },
+    {
+      "id": 2,
+      "branch": "Toronto",
+      "address": "290 Bremner Blvd",
+      "hourOpen": 9,
+      "hourClose": 18,
+      "phone": "416-999-1020"
+    },
+    {
+      "id": 3,
+      "branch": "Alberta",
+      "address": "101 Lake Louise Dr",
+      "hourOpen": 9,
+      "hourClose": 18,
+      "phone": "403-123-2006"
+    }
+]

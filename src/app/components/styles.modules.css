@@ -1,23 +1,33 @@
 .aboutUs {
-    color: #f3f3f3;
-    background-color: #0037cf;
+    background-color: #f3f3f3;
     border-radius: 12px;
     padding: 1em 1em;
     font-size: 1.5em;
   }
 
-  header nav {
-    color: #f3f3f3;
-    background-color: #0037cf;
-    padding: 1em 2em;
-  }
-  header nav h1 {
-    color: #f3f3f3;
+  .aboutUs h2{
+    color: #0037cf !important;
   }
 
-  header nav h2 {
-    color: #f3f3f3;
+  header nav {
+    background-color: #f3f3f3;
+    padding: 1em 2em;
   }
-  /* .itemCards {
-    min-width: 25vw;
-  } */
+
+  .nav-item .nav-link:hover {
+    color: #0037cf;
+  }
+
+  .blueText {
+    color: #0037cf !important;
+  }
+
+  .blueBackground {
+    color: #f3f3f3;
+    font-size: 1.5em;
+    background-color: #6078b9;
+  }
+  
+  #storeCard {
+    background-color: #6078b9;
+  }

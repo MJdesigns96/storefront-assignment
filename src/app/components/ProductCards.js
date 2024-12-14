@@ -1,5 +1,6 @@
 // 'use client'
 import { tempFxn } from '../getItems';
+import styles from './styles.modules.css';
 
 export default async function ItemsListItems() {
     const itemsList = await tempFxn();
