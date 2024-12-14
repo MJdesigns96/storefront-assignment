@@ -17,15 +17,15 @@ export default async function ItemsListItems() {
     }
 
     const itemsElement = itemsArr.map((entry) => 
-        <div className='col-4 mb-2 d-flex align-items-stretch' key={entry.id}>
-            <div className='card'>
-                <div className='card-body'>
+        <div className='col-3 mb-2' key={entry.id}>
+            <div className='card h-100'>
+                <div className='card-body mx-3 mt-3'>
                     <h3 className='card-title'>{ entry.name }</h3>
                     <p className='card-text'>{ entry.description }</p>
                 </div>
-                <div className='card-footer'>
+                <div className='card-footer mt-2'>
                     <div className='row align-items-center mt-auto'>
-                        <div className='col text-center '><h3>${ entry.price.toFixed(2) }</h3></div>
+                        <div className='col text-center '><h3>${ entry.price.toFixed(2) } CAD</h3></div>
                         { stockCheker(entry.stock) }
                     </div>
                 </div>
@@ -34,7 +34,7 @@ export default async function ItemsListItems() {
     );
 
     return(
-        <div className='row card-group'>
+        <div className='row row-cols-1 row-cols-md-4 g-4'>
             { itemsElement }
         </div>
     )

@@ -1,0 +1,23 @@
+.aboutUs {
+    color: #f3f3f3;
+    background-color: #0037cf;
+    border-radius: 12px;
+    padding: 1em 1em;
+    font-size: 1.5em;
+  }
+
+  header nav {
+    color: #f3f3f3;
+    background-color: #0037cf;
+    padding: 1em 2em;
+  }
+  header nav h1 {
+    color: #f3f3f3;
+  }
+
+  header nav h2 {
+    color: #f3f3f3;
+  }
+  /* .itemCards {
+    min-width: 25vw;
+  } */

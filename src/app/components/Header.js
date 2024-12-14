@@ -1,17 +1,18 @@
 import Link from "next/link"
+import styles from './styles.modules.css';
 
 export default function Header() {
     return(
         <header>
-            <nav className="navbar navbar-expand-lg mt-2 pr-5">
-                <div className="container-fluid">
+            <nav className="navbar navbar-expand-lg fixed-top shadow mb-5">
+                <div className="container-fluid justify-content-around">
                     <Link className="navbar-brand" href="/">
                         <h1>H2Water</h1>
                     </Link>
                     <small>
-                        Water for your everyday
+                        Saving the world One bottle at time
                     </small>
-                    <ul className="navbar-nav mr-auto">
+                    <ul className="navbar-nav">
                         <li className="nav-item">
                             <Link className="nav-link" href="/products">
                                 <h2>
@@ -37,6 +38,5 @@ export default function Header() {
                 </div>
             </nav>
         </header>
-        
     )
 }
