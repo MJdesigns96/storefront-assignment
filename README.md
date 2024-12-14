@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## StoreFront Website
+This website was built using NextJS and MongoDB.
+
+This website is meant to emulate a ecommerce website using various tools such as Mongoose to create schemas for the MongoDB data, React-Bootstrap for CSS organization, and native tools found in NextJS.
+
+This project was done for the Course HTTP5222 Fall Semester.
 
 ## Getting Started
 
@@ -13,4 +18,3 @@ pnpm dev
 # or
 bun dev
 ```
-
