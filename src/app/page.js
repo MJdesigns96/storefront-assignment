@@ -1,6 +1,6 @@
 import ItemsListItems from "./components/ProductCards";
 import StoreLocations from "./components/StoreLocations";
-import AboutUs from "./components/aboutus";
+import AboutUs from "./components/Aboutus";
 import waterBottle from '../../public/waterBottle.jpg'
 import styles from './styles.modules.css';
 

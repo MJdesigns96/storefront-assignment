@@ -1,4 +1,3 @@
-import Cards from "./cards";
 import ItemsListItems from "../components/ProductCards";
 
 export const metadata = {
@@ -7,8 +6,6 @@ export const metadata = {
 };
 
 export default function Products(props) {
-
-
 
 return (
     <div className="row">
@@ -19,7 +16,7 @@ return (
             <div className="row">
                 <p>Listed below are products that are currently being housed in our stores.</p>
             </div>
-            <div className="row">
+            <div className="row mb-5">
                 <div className="col">
                     <ItemsListItems />
                 </div>
