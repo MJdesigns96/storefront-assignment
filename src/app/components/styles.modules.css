@@ -1,0 +1,46 @@
+.aboutUs {
+    background-color: #f3f3f3;
+    border-radius: 12px;
+    padding: 1em 1em;
+    font-size: 1.5em;
+  }
+
+  .aboutUs h2{
+    color: #0037cf !important;
+  }
+
+  header nav {
+    background-color: #f3f3f3;
+    padding: 1em 2em;
+  }
+
+  .nav-item .nav-link:hover {
+    color: #0037cf;
+  }
+
+  .blueText {
+    color: #0037cf !important;
+  }
+
+  .blueBackground {
+    color: #f3f3f3;
+    font-size: 1.5em;
+    background-color: #6078b9;
+  }
+  
+  #storeCard {
+    background-color: #6078b9;
+  }
+
+  .spacer {
+    background-color: #0037cf;
+  }
+
+  #footer {
+    color: #f3f3f3;
+    background-color: #0037cf;
+  }
+
+  #footer .col .navbar .navbar-nav .nav-item a {
+    color: #f3f3f3;
+  }
