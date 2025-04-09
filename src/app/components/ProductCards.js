@@ -9,14 +9,10 @@ import smCanteen from '../../../public/bottles/32oz-canteen.png';
 import mdCanteen from '../../../public/bottles/48oz-canteen.png';
 import lgCanteen from '../../../public/bottles/96oz-canteen.png';
 
-<<<<<<< HEAD
-export default async function ProductCards() {
-=======
 export default async function ItemsListItems({ currencyAmount, currencyName, userCurrency }) {
     // console.log(currencyAmount);
     // console.log(currencyName);
     // console.log(userCurrency);
->>>>>>> cda6e0a7c29af54c118c5d7a94e679104c427bd4
     const itemsList = await tempFxn();
     let itemsArr = [];
     itemsList.items.forEach(entry => {

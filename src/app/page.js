@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-import ProductCards from "./components/ProductCards";
-import {Carousel, CarouselItem} from 'react-bootstrap';
-=======
 import ItemsListItems from "./components/ProductCards";
 import StoreLocations from "./components/StoreLocations";
 import AboutUs from "./components/Aboutus";
->>>>>>> cda6e0a7c29af54c118c5d7a94e679104c427bd4
 import waterBottle from '../../public/waterBottle.jpg'
 import styles from './styles.modules.css';
 
@@ -18,26 +13,6 @@ export default function Home() {
     <>  
       <div className="row gx-0 px-0">
         <div className="col">
-<<<<<<< HEAD
-          <Carousel>
-            <CarouselItem>
-                <img className="d-block w-100 object-fit-cover" style={{height: "90vh"}} src={waterBottle.src} alt="Landing Picture" />
-            </CarouselItem>
-            {/* https://unsplash.com/photos/bear-illustration-on-orange-tumbler-nWy_OyaAWdU */}
-            <CarouselItem>
-                <img className="d-block w-100 object-fit-cover" style={{height: "90vh"}} src={citrus.src} alt="citrus suspended in water" />
-            </CarouselItem>
-            {/* https://unsplash.com/photos/sliced-orange-fruits-underwater-qpN5MLx1uwk */}
-            <CarouselItem>
-                <img className="d-block w-100 object-fit-cover" style={{height: "90vh"}} src={drop.src} alt="a drop of water into a body of water" />
-            </CarouselItem>
-            {/* https://unsplash.com/photos/water-drops-macro-photography-XSQHuGGRO3g */}
-          </Carousel>
-        </div>
-      </div>
-      <div className="row">
-         <ProductCards />
-=======
           {/* Parallax scroll item */}
           <div className="parallax" style={{backgroundImage: `url(${waterBottle.src})`, minHeight: "80vh"}}>
           </div>
@@ -67,7 +42,6 @@ export default function Home() {
           <p>Reduce, Reuse, Recycle!</p>
           <p>At H2Water we use as much as we can from recycled materials. We can't put the fossil fuels back into the ground but we can reuse the ones that already are out there.</p>
         </div>
->>>>>>> cda6e0a7c29af54c118c5d7a94e679104c427bd4
       </div>
     </>
   );
