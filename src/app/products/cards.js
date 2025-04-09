@@ -18,10 +18,6 @@ export default async function Cards () {
     itemsList.items.forEach(entry => {
         testArr.push(entry);
     })
-    // let testItem1 = new itemDetails("foo", "bar", ["temp"], 100, "Medium", 10);
-    // let testItem2 = new itemDetails("Iten2", "This item has a decently sized description", ["shirt"], 25, "Medium", 23);
-    // testArr.push(testItem1);
-    // testArr.push(testItem2);
 
     const cards = testArr.map(entry => 
         <>

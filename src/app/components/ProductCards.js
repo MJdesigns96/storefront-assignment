@@ -1,7 +1,7 @@
 // 'use client'
 import { tempFxn } from '../getItems';
 
-export default async function ItemsListItems() {
+export default async function ProductCards() {
     const itemsList = await tempFxn();
     // console.log(itemsList.items);
     let itemsArr = [];

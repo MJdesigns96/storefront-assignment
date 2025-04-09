@@ -1,5 +1,5 @@
 import Cards from "./cards";
-import ItemsListItems from "../components/ProductCards";
+import ProductCards from "../components/ProductCards";
 
 export const metadata = {
     title: "Products List | Storefront",
@@ -8,7 +8,9 @@ export const metadata = {
 
 export default function Products(props) {
 
-
+// create a parallax effect for the background https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax
+// use an image and scroll downwards to show product details
+// https://codepen.io/ibrahima92/pen/ExYZPqg
 
 return (
     <div className="row">
@@ -21,7 +23,7 @@ return (
             </div>
             <div className="row">
                 <div className="col">
-                    <ItemsListItems />
+                    <ProductCards />
                 </div>
             </div>
         </div>
